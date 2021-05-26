@@ -9,6 +9,7 @@
 - [1.两数之和](https://github.com/fizzse/leetcode/blob/main/simple/1.go)
 - [7.整数反转](https://github.com/fizzse/leetcode/blob/main/simple/7.go)
 - [9.回文数](https://github.com/fizzse/leetcode/blob/main/simple/9.go)
+- [13.罗马数字转整数](https://github.com/fizzse/leetcode/blob/main/simple/13.go)
 - [14.最长公共前缀](https://github.com/fizzse/leetcode/blob/main/simple/14.go)
 - [20.有效的括号](https://github.com/fizzse/leetcode/blob/main/simple/20.go)
 - [26.删除有序数组中的重复项](https://github.com/fizzse/leetcode/blob/main/simple/26.go)
