@@ -14,6 +14,7 @@
 - [20.有效的括号](https://github.com/fizzse/leetcode/blob/main/simple/20.go)
 - [21.合并两个有序链表](https://github.com/fizzse/leetcode/blob/main/simple/21.go)
 - [26.删除有序数组中的重复项](https://github.com/fizzse/leetcode/blob/main/simple/26.go)
+- [27.移除元素](https://github.com/fizzse/leetcode/blob/main/simple/27.go)
 
 ## 中等
 2. [两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
