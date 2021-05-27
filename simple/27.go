@@ -49,13 +49,12 @@ for (int i = 0; i < len; i++) {
 
 func removeElement(nums []int, val int) int {
 	index := 0
-	for i := 0; i < len(nums); i++ {
-		if nums[i] != val {
+	for i, v := range nums {
+		if v != val {
 			if index != i {
-				nums[index] = nums[i]
+				nums[index] = v
 			}
 			index++
-			continue
 		}
 	}
 
