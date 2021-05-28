@@ -20,6 +20,6 @@
 - [53.最大子序和](https://github.com/fizzse/leetcode/blob/main/simple/53.go)
 
 ## 中等
-2. [两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
+2. [x] [两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
 ## 复杂
-10. [正则表达式匹配](https://github.com/fizzse/leetcode/blob/main/difficult/10.go)
+10. [ ] [正则表达式匹配](https://github.com/fizzse/leetcode/blob/main/difficult/10.go)
