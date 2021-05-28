@@ -15,6 +15,7 @@
 - [21.合并两个有序链表](https://github.com/fizzse/leetcode/blob/main/simple/21.go)
 - [26.删除有序数组中的重复项](https://github.com/fizzse/leetcode/blob/main/simple/26.go)
 - [27.移除元素](https://github.com/fizzse/leetcode/blob/main/simple/27.go)
+- [28.strStr](https://github.com/fizzse/leetcode/blob/main/simple/28.go)
 - [35.搜索插入位置](https://github.com/fizzse/leetcode/blob/main/simple/35.go)
 
 ## 中等
