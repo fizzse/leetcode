@@ -18,7 +18,7 @@
 - [28.strStr](https://github.com/fizzse/leetcode/blob/main/simple/28.go)
 - [35.搜索插入位置](https://github.com/fizzse/leetcode/blob/main/simple/35.go)
 - [53.最大子序和](https://github.com/fizzse/leetcode/blob/main/simple/53.go)
-
+- [58.最后一个单词的长度](https://github.com/fizzse/leetcode/blob/main/simple/58.go)
 ## 中等
 2. [x] [两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
 ## 复杂
