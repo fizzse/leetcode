@@ -21,6 +21,7 @@
 - [58.最后一个单词的长度](https://github.com/fizzse/leetcode/blob/main/simple/58.go)
 - [66.加一](https://github.com/fizzse/leetcode/blob/main/simple/66.go)
 - [ ] [67.二进制求和](https://github.com/fizzse/leetcode/blob/main/simple/67.go)
+- [69.x 的平方根](https://github.com/fizzse/leetcode/blob/main/simple/69.go)
 ## 中等
 - [x] [2.两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
 ## 复杂
