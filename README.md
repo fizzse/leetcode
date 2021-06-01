@@ -25,7 +25,8 @@
 - [70.爬楼梯](https://github.com/fizzse/leetcode/blob/main/simple/70.go)
 - [83.删除排序链表中的重复元素](https://github.com/fizzse/leetcode/blob/main/simple/83.go)
 - [88.合并两个有序数组](https://github.com/fizzse/leetcode/blob/main/simple/88.go)
-- [x] [99.二叉树的中序遍历](https://github.com/fizzse/leetcode/blob/main/simple/94.go)
+- [94.二叉树的中序遍历](https://github.com/fizzse/leetcode/blob/main/simple/94.go)
+- [100.相同的树](https://github.com/fizzse/leetcode/blob/main/simple/100.go)
 ## 中等
 - [x] [2.两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
 ## 复杂
