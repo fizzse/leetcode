@@ -28,6 +28,8 @@
 - [94.二叉树的中序遍历](https://github.com/fizzse/leetcode/blob/main/simple/94.go)
 - [100.相同的树](https://github.com/fizzse/leetcode/blob/main/simple/100.go)
 - [101.对称二叉树](https://github.com/fizzse/leetcode/blob/main/simple/101.go)
+- [104.二叉树的最大深度](https://github.com/fizzse/leetcode/blob/main/simple/104.go)
+- [160.相交链表](https://github.com/fizzse/leetcode/blob/main/simple/160.go)
 ## 中等
 - [x] [2.两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
 ## 复杂
