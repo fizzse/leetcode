@@ -29,6 +29,7 @@
 - [100.相同的树](https://github.com/fizzse/leetcode/blob/main/simple/100.go)
 - [101.对称二叉树](https://github.com/fizzse/leetcode/blob/main/simple/101.go)
 - [104.二叉树的最大深度](https://github.com/fizzse/leetcode/blob/main/simple/104.go)
+- [110.平衡二叉树](https://github.com/fizzse/leetcode/blob/main/simple/110.go)
 - [118.杨辉三角](https://github.com/fizzse/leetcode/blob/main/simple/118.go)
 - [119.杨辉三角 II](https://github.com/fizzse/leetcode/blob/main/simple/119.go)  
 - [160.相交链表](https://github.com/fizzse/leetcode/blob/main/simple/160.go)
