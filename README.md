@@ -31,6 +31,7 @@
 - [104.二叉树的最大深度](https://github.com/fizzse/leetcode/blob/main/simple/104.go)
 - [110.平衡二叉树](https://github.com/fizzse/leetcode/blob/main/simple/110.go)
 - [111.二叉树的最小深度](https://github.com/fizzse/leetcode/blob/main/simple/111.go)
+- [112.路径总和](https://github.com/fizzse/leetcode/blob/main/simple/112.go)
 - [114.二叉树的前序遍历](https://github.com/fizzse/leetcode/blob/main/simple/114.go)  
 
 - [118.杨辉三角](https://github.com/fizzse/leetcode/blob/main/simple/118.go)
