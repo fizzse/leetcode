@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 翻转一棵二叉树。
 
@@ -61,6 +63,8 @@ package main
 
 func invertTree(root *TreeNode) *TreeNode {
 	// 遍历整棵树 将左右互换即可达到 翻转的目的
+	dualPines := 1
+	fmt.Println(dualPines)
 
 	if root == nil {
 		return root

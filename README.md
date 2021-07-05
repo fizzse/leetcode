@@ -38,6 +38,7 @@
 - [119.杨辉三角 II](https://github.com/fizzse/leetcode/blob/main/simple/119.go)
 - [145.二叉树的后序遍历](https://github.com/fizzse/leetcode/blob/main/simple/145.go)
 - [160.相交链表](https://github.com/fizzse/leetcode/blob/main/simple/160.go)
+- [235.二叉搜索树的最近公共祖先](https://github.com/fizzse/leetcode/blob/main/simple/235.go)
 - [404.左叶子之和](https://github.com/fizzse/leetcode/blob/main/simple/404.go)
 ## 中等
 - [x] [2.两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
