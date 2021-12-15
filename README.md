@@ -39,8 +39,12 @@
 - [145.二叉树的后序遍历](https://github.com/fizzse/leetcode/blob/main/simple/145.go)
 - [160.相交链表](https://github.com/fizzse/leetcode/blob/main/simple/160.go)
 - [235.二叉搜索树的最近公共祖先](https://github.com/fizzse/leetcode/blob/main/simple/235.go)
+- [278.第一个错误的版本](https://github.com/fizzse/leetcode/blob/main/simple/278.go)
 - [404.左叶子之和](https://github.com/fizzse/leetcode/blob/main/simple/404.go)
+- [704.二分查找](https://github.com/fizzse/leetcode/blob/main/simple/704.go)
+- [977.有序数组的平方](https://github.com/fizzse/leetcode/blob/main/simple/977.go)
 ## 中等
 - [x] [2.两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
+- [x] [189.轮转数组](https://github.com/fizzse/leetcode/blob/main/medium/189.go)
 ## 复杂
 - [ ] [10.正则表达式匹配](https://github.com/fizzse/leetcode/blob/main/difficult/10.go)
