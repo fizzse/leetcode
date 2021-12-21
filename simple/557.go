@@ -3,6 +3,7 @@ package main
 /*
 https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/
 
+反转字符串中的单词 III
 给定一个字符串，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
 
@@ -22,32 +23,6 @@ https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 */
 
-func reverseWords1(s string) string {
-	buf := make([]byte, len(s))
-
-	i := 0
-	size := len(s)
-
-	for j := 0; j < size; j++ {
-		if s[j] != ' ' && j != size-1 {
-			continue
-		}
-
-		if j == size-1 {
-			j++
-		}
-
-		for k := j - 1; j > i; k-- {
-			buf[k] = s[i]
-			i++
-		}
-
-		buf[j] = s[j]
-		i = j + 1
-	}
-	return string(buf)
-}
-
 func reverseWords(s string) string {
 	buf := make([]byte, len(s))
 
@@ -55,23 +30,23 @@ func reverseWords(s string) string {
 	size := len(s)
 
 	for j := 0; j < size; j++ {
-		end := 0
 		switch {
-		case s[j] == ' ':
-			end = j - 1
-		case j == size-1:
-			end = j
+		case s[j] == ' ': // 单词结尾
+			buf[j] = ' '
+
+		case j == size-1: // 结尾 +1是为了执行同样的交换逻辑
+			j = j + 1
+
 		default:
 			continue
 		}
 
-		for k := end; end > i; k-- {
+		for k := j - 1; i < j; k-- { // 进行赋值 (i等于起始单词位置，j是结束位置+1（空格或者总长度+1）)
 			buf[k] = s[i]
 			i++
 		}
 
-		buf[j] = s[j]
-		i = j + 1
+		i = j + 1 // 指向下一个单词
 	}
 	return string(buf)
 }
