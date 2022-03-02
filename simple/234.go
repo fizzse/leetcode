@@ -20,23 +20,24 @@ package main
  *     Next *ListNode
  * }
  */
-//func isPalindrome(head *ListNode) bool {
-//	node := head
-//	m := make(map[int]int)
-//	i := 0
-//	for node != nil {
-//		m[node.Val] += i
-//		node = node.Next
-//		i++
-//	}
-//
-//	mid := i / 2
-//	fmt.Println(mid)
-//	for _, v := range m {
-//		if v%mid != 0 {
-//			return false
-//		}
-//	}
-//
-//	return true
-//}
+
+// 转成数组 进行比对
+func isPalindrome(head *ListNode) bool {
+	var list []int
+	node := head
+	for node != nil {
+		list = append(list, node.Val)
+		node = node.Next
+	}
+
+	size := len(list)
+	j := size - 1
+	for i := 0; i < size/2; i++ {
+		if list[i] != list[j] {
+			return false
+		}
+		j--
+	}
+
+	return true
+}

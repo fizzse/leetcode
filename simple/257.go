@@ -1,8 +1,6 @@
 package main
 
-import (
-	"strconv"
-)
+import "strconv"
 
 /*
 给定一个二叉树，返回所有从根节点到叶子节点的路径。
@@ -36,51 +34,33 @@ import (
  *     Right *TreeNode
  * }
  */
+
 func binaryTreePaths(root *TreeNode) []string {
-	pathLeft := ""
-	pathRight := ""
 	var pathList []string
 	if root == nil {
 		return pathList
 	}
 
-	pathLeft += strconv.Itoa(root.Val)
-	pathRight += strconv.Itoa(root.Val)
-	if root.Left != nil {
-		pathLeft += "->"
-		pathLeft += strconv.Itoa(root.Left.Val)
-	}
-
-	if pathLeft != "" {
-		pathList = append(pathList, pathLeft)
-	}
-
-	pathList = append(pathList, binaryTreePaths(root.Left)...)
-
-	if root.Right != nil {
-		pathLeft += "->"
-		pathLeft += strconv.Itoa(root.Right.Val)
-	}
-
-	if pathRight != "" {
-		pathList = append(pathList, pathRight)
-	}
-
-	pathList = append(pathList, binaryTreePaths(root.Right)...)
-	return pathList
+	return treePaths(root, "")
 }
 
-func onePath(root *TreeNode, path string) string {
-	if root == nil {
-		return path
-	}
+func treePaths(root *TreeNode, basePath string) []string {
+	var ret []string
+	basePath += strconv.Itoa(root.Val)
 
-	path += strconv.Itoa(root.Val)
 	if root.Left == nil && root.Right == nil {
-		return path
+		ret = append(ret, basePath)
 	}
 
-	onePath(root.Left, path)
-	onePath(root.Right, path)
-	return path
+	if root.Left != nil {
+		paths := treePaths(root.Left, basePath+"->")
+		ret = append(ret, paths...)
+	}
+
+	if root.Right != nil {
+		paths := treePaths(root.Right, basePath+"->")
+		ret = append(ret, paths...)
+	}
+
+	return ret
 }
