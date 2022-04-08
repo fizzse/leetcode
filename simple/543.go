@@ -32,7 +32,7 @@ package main
 
 // 等于左子树的深度 + 右子树的深度
 
-func depth(node *TreeNode) int {
+/*func depth(node *TreeNode) int {
 	if node == nil {
 		return 0
 	}
@@ -43,12 +43,39 @@ func diameterOfBinaryTree(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	return max(diameterOfBinaryTree(root.Right), max(diameterOfBinaryTree(root.Left), depth(root.Left)+depth(root.Right)))
-}
+	return max(
+		diameterOfBinaryTree(root.Right), max(
+			diameterOfBinaryTree(root.Left),
+			depth(root.Left)+depth(root.Right)))
+}*/
 
 func max(a, b int) int {
 	if a > b {
 		return a
 	}
 	return b
+}
+
+func diameterOfBinaryTree(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+	return max(
+		diameterOfBinaryTree(root.Right), max(
+			diameterOfBinaryTree(root.Left),
+			depth(root.Left)+depth(root.Right)))
+}
+
+func depth(root *TreeNode) int {
+	if root == nil {
+		return 0
+	}
+
+	right := depth(root.Right)
+	left := depth(root.Left)
+	if left > right {
+		return left + 1
+	}
+
+	return right + 1
 }
