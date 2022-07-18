@@ -51,6 +51,8 @@
 - [977.有序数组的平方](https://github.com/fizzse/leetcode/blob/main/simple/977.go)
 ## 中等
 - [x] [2.两数相加](https://github.com/fizzse/leetcode/blob/main/medium/2.go)
+- [x] [15.三数之和](https://github.com/fizzse/leetcode/blob/main/simple/15.go)
+- [x] [18.四数之和](https://github.com/fizzse/leetcode/blob/main/simple/18.go)
 - [x] [19.删除链表的倒数第 N 个结点](https://github.com/fizzse/leetcode/blob/main/medium/19.go)
 - [x] [189.轮转数组](https://github.com/fizzse/leetcode/blob/main/medium/189.go)
 ## 复杂
